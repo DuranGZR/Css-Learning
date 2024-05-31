@@ -1,0 +1,38 @@
+
+/* tüm etiketler
+*{
+    border: 2px solid blue;
+}
+
+tüm p etiketleri
+p{
+    border: 2px solid red;
+}
+
+*/
+/*
+tüm div ve tim p etiketleri
+*/
+
+div.box, p{
+    color: blueviolet;
+}
+
+/*
+üst etiketi div olan tüm p etiketleri
+*/
+div>p{
+    border: 2px solid red;
+}
+
+
+/*
+.contanier div.box{
+    border: 2px solid blue;
+}
+
+
+div p{
+    border: 2px solid red;
+}
+*/

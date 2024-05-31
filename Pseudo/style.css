@@ -1,0 +1,20 @@
+p::first-line{
+    font-weight: bold;
+    color: tomato;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+ul li:first-child{
+    background-color: red;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+p::after{
+    content: "-deneme";
+    display: block;
+    background-color: yellow;
+}
